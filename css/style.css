@@ -133,7 +133,7 @@
 
 
 .purchase-btn{
-    background: linear-gradient(to bottom right, #004e4e, #008080);
+    background:linear-gradient(to left, gold, #ffd700, #004e4e, #002828) !important;
     width: 100%;
     border: none;
     height: 70px;
@@ -742,7 +742,7 @@
     }
     .offer-details-right button{
       padding: 10px 40px;
-      background-color: green;
+      background: linear-gradient( gold, #002828) !important;
       border: none;
       border-radius: 10px;
     }
@@ -750,4 +750,40 @@
       text-decoration: none;
       color: #FFFFFF;
       font-size: 1.5rem;
+    }
+    
+    /* meet-trainer-container */
+    .meet-trainer-container{
+      width: 100%;
+    }
+    .meet-trainer{
+      width: 80%;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .meet-trainer >img{
+      width: 50%;
+      background-size: contain;
+    }
+    .trainer-certificate-info {
+      position: relative;
+      
+    }
+    .trainer-certificate-info::after{
+      content: "";
+      position: absolute;
+      width: 50px;
+      height: 5px;
+      border-radius: 4px;
+      bottom: 0;
+      left: 40%;
+      background-color: green;
+    }
+    .trainer-certificate-info h4{
+      font-size: 2rem;
+      color: green;
+      padding: 20px 10px;
     }
