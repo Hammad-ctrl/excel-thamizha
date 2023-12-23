@@ -12,7 +12,7 @@
     }
     .cards-container {
         flex-direction: column;
-    }
+    }    
     .inner-card::before{
         left: 49%;
     }
@@ -124,7 +124,7 @@
     }
 }
 
-@media screen and (max-width:350px){
+@media screen and (max-width:400px){
     .purchase-btn-2 {
         width: 266px !important;
     }
