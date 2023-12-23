@@ -749,7 +749,8 @@
     .offer-details-right button a{
       text-decoration: none;
       color: #FFFFFF;
-      font-size: 1.5rem;
+      font-size: 1.2rem;
+      font-weight:bold;
     }
     
     /* meet-trainer-container */
