@@ -127,7 +127,7 @@
     }
 }
 
-@media screen and (max-width:350px){
+@media screen and (max-width:400px){
     .trainer-certificate-info h4 {
         font-size: 1.2rem;
         text-shadow: 2px 2px 4px rgb(100, 99, 89);
