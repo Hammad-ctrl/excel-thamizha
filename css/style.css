@@ -133,11 +133,11 @@
 
 
 .purchase-btn{
-    background:linear-gradient(to left, gold, #ffd700, #004e4e, #002828) !important;
+    background-image: linear-gradient(to right, rgb(1 134 218), rgb(182 49 167)) ! important;
     width: 100%;
     border: none;
     height: 70px;
-    border-radius: 33px;
+    border-radius: 19px;
     animation: bounce 2s ease alternate infinite;
     transition: all 200ms ease;
 }
@@ -160,6 +160,7 @@
 }
 .purchase-btn .text{
     font-size: 22px;
+    font-weight:bold;
 }
 .course-features-container{
     width: 100%;
@@ -741,9 +742,8 @@
         top: 40%;
     }
     .offer-details-right button{
-      padding: 10px 40px;
-      background: linear-gradient( gold, #002828) !important;
-      border: none;
+      padding: 10px 40px;   
+    background-image: linear-gradient(to right, rgb(1 134 218), rgb(182 49 167)) ! important;      border: none;
       border-radius: 10px;
     }
     .offer-details-right button a{
